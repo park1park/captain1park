@@ -1,0 +1,34 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <!-- action을 따로 지정하지 않으면 아무데로도 움직이지 않는다, 
+        method를 따로 지정하지 않으면 GET 방식으로 기본 설정된다 -->
+        <form action="5.html" method="post">
+            <fieldset>
+                <legend>회원정보</legend>
+                <label for="name">아이디 :</label>
+                <input type="text" id="name" name="name" placeholder="아이디를 입력 해 주십시오."><br>
+                <label for="affiliation" >비밀번호 :</label>
+                
+                
+                <input type="text" id="affiliation" name="affiliation" placeholder="8글자 이상 입력 해주십시오"><br>
+                생년월일 : <input type="month" id="affiliation" name="affiliation" value=""><br>
+                이메일 : <input type="email" placeholder="이메일을 기입해주십시오"><br>
+                
+              
+              전화번호 : <input type="tel" id="phone" placeholder="연락처를 기입해주십시오" pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}"><br>
+              <input type="checkbox" name="food" value="pizza">검색
+              <input type="checkbox" name="food" value="hamburger">친구
+              <input type="checkbox" name="food" value="pasta">추천<br>
+              <input type="submit" value="완료">
+                <input type="reset" value="초기화">
+            </fieldset>   
+        </form>
+    
+</body>
+</html>
