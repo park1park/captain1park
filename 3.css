@@ -1,0 +1,44 @@
+
+
+#one {
+    border: 0.5px dashed black; 
+    width:500px; 
+    height:px;
+    text-shadow: 0 0 3px rgb(21, 172, 28); 
+    
+}
+
+#two {
+    border: 0.5px dashed black; 
+    width:400px; 
+    height:500px;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+        background: red;
+
+        background: -webkit-radial-gradient(red, orange, yellow, green, blue, indigo, purple);
+
+        background: -moz-radial-gradient(red, orange, yellow, green, blue, indigo, purple);
+
+        background: -o-radial-gradient(red, orange, yellow, green, blue, indigo, purple);
+
+        background: radial-gradient(red, orange, yellow, green, blue, indigo, purple);
+        color: white; text-shadow: 1px 1px 2px black, 0 0 20px purple, 0 0 5px maroon;
+	</style>
+}
+
+#three {
+    border: 0.5px dashed black; 
+    width:500px; 
+    height:100px;
+    div {
+        background-image: url("C:\Users\박창민\Desktop\gif_ex_img.gif");
+     }
+
+
+h1 { text-shadow: 2px 1px #3399CC; }
+ p { color: rgb(116, 231, 21); }
+
+
+
