@@ -1,0 +1,17 @@
+body {
+    background-color: aliceblue;
+}
+h1{color: blueviolet;}
+
+#p1{
+    color: greenyellow;
+}
+
+.class1{
+    font-size: 30px;
+}
+
+.class2{
+    color:yellow;
+    font-size: 35px;
+}
