@@ -29,7 +29,7 @@ body
     border-radius: 50%;
     border: 4px solid transparent;
     border-top: 4px solid #23ecff;
-    animation: aninate 4s linear infinite;
+    animation: animate 4s linear infinite;
 }
 @keyframes animate
 {
@@ -98,7 +98,6 @@ body
 {
     content: '';
     position: absolute;
-    top: initial;
     bottom: 12px;
     left: 12px;
     border-radius: 50%;
