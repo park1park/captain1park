@@ -7,34 +7,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="4.css" rel="stylesheet" type="text/css">
-</head>
 
+</head>
 <body>
-    <div id="header">
-        <h1>내가 좋아하는 것</h1> <!-- 제일 큰 제목 태그 h1을 버튼 클릭으로 유도 -->
-        <!-- <button onclick="click()">바로...</button> -->
-        <form onreset="res()">입력 : <input type="text"> <input type="reset"></form><br>
-        <a href="https://www.daum.net" target="_blank">링크1</a> <!-- <a href="링크 주소"> 홈페이지 이름 </a> 외워두기 -->
-        <a href="https://www.naver.com" target="_blank">링크2</a> <!-- target="_blank"로 새 창 열도록 조치 -->
-        <a href="https://www.google.co.kr" target="_blank">링크3</a> <!-- 임시로 다음, 네이버, 구글 3개의 링크 주소를 넣어드렸어요 :3 -->
-    </div>
+    <center>
     <div id="main">
         <img src=".\date\daum.jfif" width="150" height="300">
         <img src=".\date\naver.jfif" width="150" height="300">
         <img src=".\date\google.jfif" width="150" height="300">
         <!-- 이미지 태그 <img src="이미지 링크 주소"> 이미지 크기를 가로로 150 만큼, 세로로 300 만큼 -->
+        <div id="header">
+            <h1>내가 좋아하는 것</h1> <!-- 제일 큰 제목 태그 h1을 버튼 클릭으로 유도 -->
+            <!-- <button onclick="click()">바로...</button> -->
+            <form onreset="res()">입력 : <input type="text"> <input type="reset"></form><br>
+            <a href="https://www.daum.net" target="_blank">다음</a> <!-- <a href="링크 주소"> 홈페이지 이름 </a> 외워두기 -->
+            <a href="https://www.naver.com" target="_blank">네이버</a> <!-- target="_blank"로 새 창 열도록 조치 -->
+            <a href="https://www.google.co.kr" target="_blank">구글</a> <!-- 임시로 다음, 네이버, 구글 3개의 링크 주소를 넣어드렸어요 :3 -->
+        </div>
     </div>
     <script>
         var h1 = document.querySelector("h1").addEventListener("click", click);
-
         function click() {
             alert("바로...");
         }
-
         function res() {
             alert("초기화했습니다!")
         }
     </script>
 </body>
 
-   
