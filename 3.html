@@ -1,85 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        div{
-            border: 1px coral ;
-            border-style: solid;
-            margin-top: 10%;
-        }
-body{
-    margin: 5%;
-}
-        #header{
-            background-color:white;
-            "            /* padding: 10px; */
-            /* padding: 10px 30px; */
-            /* 시계방향 */
-            /* padding: 10px 20px 30px 40px;  */
-            /* padding-left: 10px;
-            padding-right: 20px;
-            padding-top : 30px;
-            padding-bottom: 40px; */"
-            span{
-            margin: 20px; 
-            padding: 20px; 
-            background-color: blue; 
-            display: block;
-            
-            span{
-                margin: vmax;
-
-            
-            }
-        #main{
-            background-color: chartreuse;
-            "            /* margin: 10px; */
-            /* margin: 10px 30px; */
-            /* 시계방향 */
-            /* margin: 10px 20px 30px 40px;  */
-            /* margin-left: 10px;
-            margin-right: 20px;
-            margin-top : 30px;
-            margin-bottom: 40px; */"
-            span
-            margin: 20px; 
-            padding: 20px; 
-            background-color: black; 
-            display: block;
-            }
-        }
-        #footer{
-            background-color: rgb(18, 238, 47);
-            
-            "            /* margin: 10px; */
-            /* margin: 10px 30px; */
-            /* 시계방향 */
-            /* margin: 10px 20px 30px 40px;  */
-            /* margin-left: 10px;
-            margin-right: 20px;
-            margin-top : 30px;
-            margin-bottom: 40px; */"
-        }
-    </style>
+    <link href="4.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
     <div id="header">
-    <h1>내가 좋아하는 것</h1>
-    <a href="링크1">link</a>
-    <a href="링크1"></a>
-    <a href="링크1"></a>
+        <h1>내가 좋아하는 것</h1> <!-- 제일 큰 제목 태그 h1을 버튼 클릭으로 유도 -->
+        <!-- <button onclick="click()">바로...</button> -->
+        <form onreset="res()">입력 : <input type="text"> <input type="reset"></form><br>
+        <a href="https://www.daum.net" target="_blank">링크1</a> <!-- <a href="링크 주소"> 홈페이지 이름 </a> 외워두기 -->
+        <a href="https://www.naver.com" target="_blank">링크2</a> <!-- target="_blank"로 새 창 열도록 조치 -->
+        <a href="https://www.google.co.kr" target="_blank">링크3</a> <!-- 임시로 다음, 네이버, 구글 3개의 링크 주소를 넣어드렸어요 :3 -->
     </div>
     <div id="main">
+        <img src=".\date\daum.jfif" width="150" height="300">
+        <img src=".\date\naver.jfif" width="150" height="300">
+        <img src=".\date\google.jfif" width="150" height="300">
+        <!-- 이미지 태그 <img src="이미지 링크 주소"> 이미지 크기를 가로로 150 만큼, 세로로 300 만큼 -->
+    </div>
+    <script>
+        var h1 = document.querySelector("h1").addEventListener("click", click);
 
-    <img src=".\date\daum.jfif" width="300" height="300">
-    <img src=".\date\naver.jfif" width="300" height="300">
-    <img src=".\date\google.jfif" width="300" height="300">
-    </div>    
-   
+        function click() {
+            alert("바로...");
+        }
+
+        function res() {
+            alert("초기화했습니다!")
+        }
+    </script>
+</body>
 
    
